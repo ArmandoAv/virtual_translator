@@ -6,21 +6,21 @@ This repository is based on the Virtual Assistant on the Ringa Tech channel
 
 To execute the project it is necessary:
 
-- Download the repository
+Download the repository
 
-	```git clone https://github.com/ArmandoAv/virtual_translator.git```
+```git clone https://github.com/ArmandoAv/virtual_translator.git```
 
-- Optional: Create a virtual environment
+Optional: Create a virtual environment
 
-	```python -m venv venv```
+```python -m venv venv```
 
-- Install dependencies by running
+Install dependencies by running
 
-	```pip install -r requirements.txt```
+```pip install -r requirements.txt```
 
-- Create a file called ```.env``` place the keys in the file:
+Create a file called ```.env``` place the keys in the file:
 
-	```
+```
 OPENAI_API_KEY=XXXXXX
 ELEVENLABS_API_KEY=XXXXXX
 URL=http://localhost:5000/
@@ -28,7 +28,7 @@ URL=http://localhost:5000/
 
 If you don´t have an openai or eleven labs key. You can get the openai and eleven labs keys in the following links
 
-	```
+```
 https://openai.com/
 https://elevenlabs.io/speech-synthesis
 ```
