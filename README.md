@@ -21,18 +21,18 @@ Install dependencies by running
 Create a file called ```.env``` place the keys in the file:
 
 ```
-OPENAI_API_KEY=XXXXXX
-ELEVENLABS_API_KEY=XXXXXX
+OPENAI_API_KEY=<your_openai_api_key>
+ELEVENLABS_API_KEY=<your_elevenlabs_api_key>
 URL=http://localhost:5000/
 ```
 
-If you don´t have an openai or eleven labs key. You can get the openai and eleven labs keys in the following links
+If you don´t have an openai or eleven labs api key. You can get the openai or eleven labs api key in the following links
 
 ```
 https://openai.com/
 https://elevenlabs.io/speech-synthesis
 ```
-		
+
 ## Execution
 
 This project uses Flask. You can start the server in debug mode by default on port 5000 with the command
