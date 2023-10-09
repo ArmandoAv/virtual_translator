@@ -10,6 +10,8 @@ Download the repository
 
 ```git clone https://github.com/ArmandoAv/virtual_translator.git```
 
+Have a version of Python 3.8 or higher installed.
+
 Optional: Create a virtual environment
 
 ```python -m venv venv```
